@@ -32,6 +32,8 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# 실행에 필요한 키 목록은 공유해야 하므로 예시 파일만 커밋
+!.env.example
 
 # vercel
 .vercel
